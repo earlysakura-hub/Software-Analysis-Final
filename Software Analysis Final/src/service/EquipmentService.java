@@ -8,7 +8,7 @@ import java.util.List;
 
 public class EquipmentService {
 
-    private static final String FILE_PATH = "Software Analysis Final/data/rentals.csv";
+    private static final String FILE_PATH = "Software Analysis Final/data/equipment.csv";
     private FileManager fileManager = new FileManager();
 
     public boolean addEquipment(Equipment equipment) {
