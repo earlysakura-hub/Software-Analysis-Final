@@ -10,7 +10,7 @@ import java.util.List;
 
 public class RentalService {
 
-    private static final String FILE_PATH = "data/rentals.csv";
+    private static final String FILE_PATH = "Software Analysis Final/data/rentals.csv";
 
     private FileManager fileManager = new FileManager();
     private CustomerService customerService = new CustomerService();
