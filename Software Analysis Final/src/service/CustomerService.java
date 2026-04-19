@@ -8,7 +8,7 @@ import java.util.List;
 
 public class CustomerService {
 
-    private static final String FILE_PATH = "data/customers.csv";
+    private static final String FILE_PATH = "Software Analysis Final/data/rentals.csv";
     private FileManager fileManager = new FileManager();
 
     public boolean addCustomer(Customer customer) {
